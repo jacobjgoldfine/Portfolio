@@ -32,6 +32,25 @@ header nav ul li {
     margin-left: 25px;
 }
 
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside {
+    flex: 1;
+    border-left: black;
+    border-width: thin;
+    width: 20%;
+}
+
+.work {
+    flex: 1 0 100px;
+}
+
+img {
+    size: 100px;
+}
 
 @media screen and (max-width: 768px) {
     /* Use flex-direction to stack the navbar, sidebar, and body */
