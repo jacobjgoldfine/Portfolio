@@ -35,6 +35,7 @@ header nav ul li {
 main {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
 }
 
 aside {
@@ -46,10 +47,7 @@ aside {
 
 .work {
     flex: 1 0 100px;
-}
-
-img {
-    size: 100px;
+    width: 80%;
 }
 
 @media screen and (max-width: 768px) {
