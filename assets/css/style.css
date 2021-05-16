@@ -8,5 +8,39 @@ body {
 }
 
 header {
-    
+    padding: 20px;
+    background-color: lightblue;
+}
+
+
+header h1 {
+    display: inline-block;
+    padding-left: 30px;
+    font-size: 48px;
+    background-color: lightslategray;
+}
+
+header nav {
+    padding: 15px;
+    float: right;
+    font-size: 20px;
+}
+
+header nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+
+@media screen and (max-width: 768px) {
+    /* Use flex-direction to stack the navbar, sidebar, and body */
+    main,
+    nav {
+      flex-direction: column;
+    }
+    /* Make the sidebar stack below the body */
+    aside {
+      display: none;
+    }
 }
