@@ -35,19 +35,40 @@ header nav ul li {
 main {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    
 }
 
 aside {
-    flex: 1;
-    border-left: black;
+    flex: 1 0 20%;
+    border-right: black;
     border-width: thin;
-    width: 20%;
+   
 }
 
 .work {
+    position: relative;
     flex: 1 0 100px;
+    flex-wrap: wrap;
+}
+
+#first_work {
+    flex: 2 0 100px;
+}
+
+img {
     width: 80%;
+}
+
+.work h3 {
+    z-index: 2;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
 }
 
 @media screen and (max-width: 768px) {
