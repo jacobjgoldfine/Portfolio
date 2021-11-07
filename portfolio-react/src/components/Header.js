@@ -13,7 +13,7 @@ export default function Header() {
                 <a href="#About_Me">About Me</a>
               </li>
               <li>
-                <a href="#first_work">Work</a>
+                <a href="#workExperience">Work</a>
               </li>
               <li>
                 <a href="#contact_me">Contact Me</a>
